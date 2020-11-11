@@ -1,0 +1,12 @@
+CC = gcc
+CFLAGS = -o
+TARGET = IP-Classification
+
+compile:
+	$(CC) IP-Classification.c $(CFLAGS) $(TARGET)
+
+run:
+	./$(TARGET)
+
+clean:
+	rm $(TARGET)
